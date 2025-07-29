@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>another</title>
+    {#versi tanpa bootstrap#}
+    <style>
+        h1 {
+            font-size: 40px;
+            font-family: Roboto;
+            font-weight: normal;
+            color: rgb(50, 50, 50);
+            text-align:center;
+        }
+
+        #banner {
+            width: 100%;
+            height: 360px;
+            object-fit: cover;
+        }
+
+        h2{
+            font-family: Roboto;
+            font-size:32px;
+            color:rgb(100, 100,100)
+        }
+
+        .bodytext{
+            font-family: Roboto;
+            color:rgb(80, 80, 80)
+        }
+
+        #container{
+            max-width: 720px;
+            margin: 0 auto 0 auto
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+        <h1>My Careers</h1>
+        <img id='banner' src="static/banner.jpg">
+
+        <h1>About Me</h1>
+
+        <p class="bodytext">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer suscipit tempus mattis. 
+            Praesent augue ipsum, varius et lorem non, mattis vulputate neque. Pellentesque rhoncus at nunc quis mattis. Mauris sed mauris sit amet velit dapibus gravida. Curabitur sit amet nibh ante.
+             Etiam neque dui, ullamcorper a malesuada ut, finibus et mi. Nullam laoreet leo at magna luctus, vel sollicitudin tortor auctor. Vivamus hendrerit porta dapibus. Aenean at nisl pharetra, 
+             ornare erat non, dapibus sapien. Sed at fringilla urna. Curabitur lectus ante, sodales eu orci sed, faucibus efficitur libero. Aenean libero metus, lobortis eget mi sed, rhoncus consectetur lectus. Pellentesque luctus id nibh ac ornare. Morbi justo massa, 
+             consectetur sit amet velit eget, lobortis lacinia tortor. Nulla facilisi.</p>
+
+        <p class="bodytext">JOB 1</p>
+        <div style="text-align:center;"> {#pakai inline css kalau propertinya dikit #}
+            <button>Contact Us</button>
+            <p>Copyright 2025, Tommy</p>
+        </div>
+    </div>
+</body>
+</html>
